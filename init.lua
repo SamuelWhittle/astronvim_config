@@ -82,13 +82,12 @@ local config = {
     nui_input = true,
     telescope_select = true,
   },
-
   -- Configure plugins
   plugins = {
     -- Add plugins, the packer syntax without the "use"
     init = {
       -- Disabled Plugins
-      ["windwp/nvim-autopairs"] = { disable = true },
+      --["windwp/nvim-autopairs"] = { disable = true },
 
       -- Custom Plugins
       { "tpope/vim-abolish" },
@@ -272,4 +271,3 @@ local config = {
 }
 
 return config
-
